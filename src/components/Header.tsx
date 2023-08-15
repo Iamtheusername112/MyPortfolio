@@ -24,7 +24,7 @@ function Header() {
         <img src="/img/kem.jpg" className="p-1" alt="Francis's image" />
       </div>
 
-      <div className="flex gap-14">
+      <div className="hidden md:flex gap-14">
         {menu.map((itemsFromMenu) => (
           <div className="text-black">
             <h2 className="cursor-pointer hover:underline font-medium">
