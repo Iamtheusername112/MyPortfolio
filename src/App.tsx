@@ -1,4 +1,5 @@
 import "./App.css";
+import About from "./components/About";
 import Header from "./components/Header";
 import Introduction from "./components/Introduction";
 import ProfilePics from "./components/ProfilePics";
@@ -12,6 +13,7 @@ function App() {
       <div className="ml-[90px] grid grid-cols-1 md:grid-cols-3">
         <div className="col-span-2">
           <Introduction />
+          <About />
         </div>
 
         <div className="hidden md:block">
