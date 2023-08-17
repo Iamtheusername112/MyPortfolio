@@ -3,6 +3,7 @@ import About from "./components/About";
 import Header from "./components/Header";
 import Introduction from "./components/Introduction";
 import ProfilePics from "./components/ProfilePics";
+import Services from "./components/Services";
 import SideBar from "./components/SideBar";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <div className="col-span-2">
           <Introduction />
           <About />
+          <Services />
         </div>
 
         <div className="hidden md:block">
